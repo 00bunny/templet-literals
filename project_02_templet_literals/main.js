@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let firstname = "Talha";
+let secondname = "Ahmed";
+let fullname = (firstname) + '' + (secondname);
+console.log(fullname);
+let firstName = "Talha";
+let secondName = "Ahmed";
+let fullName = `${firstName} ${secondName}`;
+console.log(fullName);
